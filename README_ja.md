@@ -23,3 +23,10 @@
   - [OSSコントリビューション](https://nomuraya.work/adiary/)
 - [移行中](https://github.com/shimajima-eiji/public_kh)
 - [移行先](https://github.com/shimajima-eiji/gist)
+
+# やれる時にやりたい
+githubpageを使う
+どちらの方が良いか比較はするけど、どちらも使えるのがベター
+https://github.com/shimajima-eiji/githubpage_test
+
+運用は考える
