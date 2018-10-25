@@ -1,2 +1,3 @@
-browse update
-add tty
+- browser update
+- add tty
+- browser added
