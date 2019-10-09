@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Goroh Nomura-ya # add your name
-author-img: # add your photo
+author-img: me.jpg # add your photo
 about-author: PythonとGASをこよなく愛するAPIデベロッパ。専門はPythonとAIデータエンジニアリング、Rails製Webアプリ（フロント）、業務系PMOや講師業など # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
@@ -39,3 +39,6 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 ampdir: amp
 kramdown:
   parse_block_html: true
+
+google_analytics:
+  tracking_id: 'UA-63549092-4'

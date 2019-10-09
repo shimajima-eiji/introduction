@@ -4,6 +4,7 @@
 
 **Merged pull requests:**
 
+- 項目追加、固定ページ [\#5](https://github.com/shimajima-eiji/resume/pull/5) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - jekyllを入れてみる [\#1](https://github.com/shimajima-eiji/resume/pull/1) ([shimajima-eiji](https://github.com/shimajima-eiji))
 
 
