@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 title: Goroh Nomura-ya's portfolio
 description: > # this means to ignore newlines until "baseurl:"
   GitHub Pageで作るPythonフリーランスエンジニアのRuby奮闘記。for Japanese
@@ -43,6 +42,3 @@ kramdown:
 
 google_analytics:
   tracking_id: 'UA-63549092-4'
-=======
-theme: jekyll-theme-time-machine
->>>>>>> parent of a97c3c7... delete for Netlify
