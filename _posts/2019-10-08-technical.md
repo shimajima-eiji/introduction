@@ -28,6 +28,7 @@ Rubyのフレームワークは色々触ってきたけど、静的サイトジ�
 * 【必須】記事を追加するだけならGitHubのWebフォーム上でも可能です。
 * 【注意】Markdown記法の種類は[Kramdown](http://chirimenmonster.github.io/2016/01/28/tips-jekyll.html)
   * [KramdownのTIPS](https://rcmdnk.com/blog/2013/10/12/blog-octopress-kramdown/)
+  * [リファレンス](http://mae0003.github.io/markdown/2015/06/21/kramdownRefference)
 * 目次はKradownではなく[jekyll-toc](https://github.com/allejo/jekyll-toc)を採用
 * 【相談】サイトの方針からコメントフォームは採用しない方がいい……？
   * ユーザーは匿名でできるが、[サイトオーナーは有料（30日無料）登録が必要](https://disqus.com/)かもしれない。
