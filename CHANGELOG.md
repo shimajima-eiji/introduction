@@ -4,7 +4,9 @@
 
 **Closed issues:**
 
+- pull忘れた分のおかしな履歴をrebase + force push [\#12](https://github.com/shimajima-eiji/resume/issues/12)
 - 失敗したコミットログを削除 [\#8](https://github.com/shimajima-eiji/resume/issues/8)
+- i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
