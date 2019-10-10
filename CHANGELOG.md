@@ -4,12 +4,15 @@
 
 **Closed issues:**
 
+- トップページを押すとルートに戻ってしまう [\#17](https://github.com/shimajima-eiji/resume/issues/17)
+- bug: fixed以下のページのtagsがtags.htmlに反映されていない [\#16](https://github.com/shimajima-eiji/resume/issues/16)
 - pull忘れた分のおかしな履歴をrebase + force push [\#12](https://github.com/shimajima-eiji/resume/issues/12)
 - 失敗したコミットログを削除 [\#8](https://github.com/shimajima-eiji/resume/issues/8)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- \#17, \[bugfix\] site.urlとsite.baseurlの指定、使っていないfixedディレクトリを削除 [\#18](https://github.com/shimajima-eiji/resume/pull/18) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[add\] アジェンダにもhタグ、Rails勉強会 [\#11](https://github.com/shimajima-eiji/resume/pull/11) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \#8 Force push [\#9](https://github.com/shimajima-eiji/resume/pull/9) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - 項目追加、固定ページ [\#5](https://github.com/shimajima-eiji/resume/pull/5) ([shimajima-eiji](https://github.com/shimajima-eiji))
