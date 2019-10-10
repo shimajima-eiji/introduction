@@ -4,7 +4,7 @@ title: 【勉強会】【シューマイ】Tech Lead Engineerから最新技術�
 date: 2019-10-09 00:00:00 +0900
 description: 普段CTOやリードエンジニアとして活躍されている3~4名の方に、Railsだけでなく、「Rails×〇〇」をテーマに、コアでマニアックな技術について熱く語って頂きます！最後に懇親会の時間も設けております。※懇親会では本物のシューマイ出します！！
 tags: [勉強会, Ruby]
-img: 2019/1009/leadengineer.jpg
+img: 2019/10/leadengineer.jpg
 ---
 毎週何かしらの勉強会に参加する、という目標を立ててます。
 自社開発でどっぷり浸かると、実は業界から見放されていた！なんて切ない事になりたくないのです。
@@ -40,7 +40,7 @@ Railsだけでなく、「Rails×〇〇」をテーマに、コアでマニア�
 （途中から撮影始めたので一部足りていません…）
 
 ## Rails & firebaseで作る通知機能とお知らせ設計手法
-![スライド1]({{site.baseurl}}/assets/img/2019/1009/firebase_matome.jpg)
+![スライド1]({{site.baseurl}}/assets/img/2019/10/firebase_matome.jpg)
 
 LTは苦手、という事だったのでマサカリはなし！
 というか、私がマサカリ投げられたらヘコむので、その辺りはまぁ…
@@ -52,7 +52,7 @@ LTは苦手、という事だったのでマサカリはなし！
 ここまでの技術要件をキッチリ策定できるかどうか、という点もありますが、成果物のお話でしかなかったです。
 
 ## パスワードいらず、sorceryでマジックリンクメールログイン
-![スライド1]({{site.baseurl}}/assets/img/2019/1009/magiclink-uml.jpg)
+![スライド1]({{site.baseurl}}/assets/img/2019/10/magiclink-uml.jpg)
 
 sorceryは私が教えているスクールでも取り扱っていますね～、
 現場では使ったことがないので、非常に興味深い！
@@ -62,20 +62,20 @@ sorceryは私が教えているスクールでも取り扱っていますね～�
 この話だけでも「ちょっとやってみよう！」っていう気になりました。
 しかし、sorceryってあんまり使われてないのかな…？
 
-![スライド2]({{site.baseurl}}/assets/img/2019/1009/php2rails.jpg)
+![スライド2]({{site.baseurl}}/assets/img/2019/10/php2rails.jpg)
 
 ## Rails6新機能　複数DB対応について
-![スライド1]({{site.baseurl}}/assets/img/2019/1009/railsguides.jpg)
+![スライド1]({{site.baseurl}}/assets/img/2019/10/railsguides.jpg)
 
 Rails5とRails6の比較が主、登壇者の安尾氏もあまり触ってないので、噛み砕いて説明してくれている、という印象。
 とはいえ、ソースコードが飛び出してくるぐらいなので、結構ガチ。
 
-![スライド2]({{site.baseurl}}/assets/img/2019/1009/macara.jpg)
+![スライド2]({{site.baseurl}}/assets/img/2019/10/macara.jpg)
 
 ちょっと実務で取り入れたい話がちょいちょいに。
 
 ## Rails6の新機能について
-![スライド1]({{site.baseurl}}/assets/img/2019/1009/live.jpg)
+![スライド1]({{site.baseurl}}/assets/img/2019/10/live.jpg)
 
 非常に聞き取りやすい！というのは発表の内容ではないんですが、呼吸のとり方とか息の抜き方を聴衆に明示してくれたのは、MC経験があるのかな？と思うぐらい。
 
@@ -85,7 +85,7 @@ rails routesの実演。-gオプションつよい！
 
 Active Rcord関連のお話に寄っているなと、かなり苦労されたんではなかろうか…。
 
-![スライド2]({{site.baseurl}}/assets/img/2019/1009/rails6.jpg)
+![スライド2]({{site.baseurl}}/assets/img/2019/10/rails6.jpg)
 
 ## パネルディスカッション
 実務的というか、サービスローンチをどうする、チームビルディングは？
