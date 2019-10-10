@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="{{site.baseurl}}/"><img
+            src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}"
+            alt="{{site.author}}"></a>
+      </div>
+      <div class="author-name">{{site.author}}</div>
+      <p>{{site.about-author}}</p>
+    </div>
+    <img src="https://grass-graph.moshimo.works/images/shimajima-eiji.png">
+  </header> <!-- End Header -->
+  <nav class="contact">
+    <h3 class="contact-title">サイト内検索</h3>
+    <form id="cse-search-box" action="http://google.com/cse">
+      <input type="hidden" name="cx" value="partner-pub-4313452092557553:7524370029" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="text" name="q" size="20" placeholder="Github Pages以下のすべてを検索できます。">
+      <button type="submit" name="sa">検索(Search)</button>
+    </form>
+    <script src="http://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+    <h3 class="contact-title">サイト内翻訳</h3>
+    <div id="google_translate_element"></div>
+    <script>
+      function googleTranslateElementInit()
+      {
+        new google.translate.TranslateElement( { pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-63549092-4' }, 'google_translate_element' );
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    {% if page.path == 'index.html' %}
+    <h3 class="contact-title">メニュー</h3>
+    <ul>
+      <li><a href="/">トップページ</a></li>
+      <li><a href="/readme">はじめに・サイトの見方</a></li>
+      <li><a href="/work">履歴・経歴など</a></li>
+      <li><a href="/recruit">お仕事の相談</a></li>
+      <li><a href="/tags">コンテンツ一覧</a></li>
+    </ul>
+    {% else %}
+    <h3 class="contact-title">ページ内リンク</h3>
+    {% include toc.html html=content sanitize=true %}
+    {% endif %}
+  </nav>
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        {% if site.social-twitter %}
+        <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter"
+              aria-hidden="true"></i></a></li>
+        {% else %}
+        <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter"
+              aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-facebook %}
+        <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook"
+              aria-hidden="true"></i></a></li>
+        {% else %}
+        <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-github %}
+        <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i
+              class="fa fa-github"></i></a></li>
+        {% else %}
+        <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github"
+              aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-linkedin %}
+        <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i
+              class="fa fa-linkedin"></i></a></li>
+        {% else %}
+        <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+              aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-email %}
+        <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+        {% else %}
+        <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o"
+              aria-hidden="true"></i></a></li>
+        {% endif %}
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  {{ content }}
+</div>
