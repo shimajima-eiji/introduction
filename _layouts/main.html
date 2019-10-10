@@ -35,14 +35,16 @@ layout: default
     {% if page.path == 'index.html' %}
     <h3 class="contact-title">メニュー</h3>
     <ul>
-      <li><a href="/">トップページ</a></li>
-      <li><a href="/readme">はじめに・サイトの見方</a></li>
-      <li><a href="/work">履歴・経歴など</a></li>
-      <li><a href="/recruit">お仕事の相談</a></li>
-      <li><a href="/tags">コンテンツ一覧</a></li>
+      <li><a href="{{site.baseurl}}/readme">はじめに・サイトの見方</a></li>
+      <li><a href="{{site.baseurl}}/work">履歴・経歴など</a></li>
+      <li><a href="{{site.baseurl}}/recruit">お仕事の相談</a></li>
+      <li><a href="{{site.baseurl}}/tags">コンテンツ一覧</a></li>
     </ul>
     {% else %}
     <h3 class="contact-title">ページ内リンク</h3>
+    <ul>
+      <li><a href="{{site.baseurl}}/">トップページ</a></li>
+    </ul>
     {% include toc.html html=content sanitize=true %}
     {% endif %}
   </nav>
