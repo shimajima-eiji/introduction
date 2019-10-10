@@ -3,7 +3,7 @@ layout: post
 title: 【勉強会】【シューマイ】Tech Lead Engineerから最新技術を学べ！Rails編×station
 date: 2019-10-09 00:00:00 +0900
 description: 普段CTOやリードエンジニアとして活躍されている3~4名の方に、Railsだけでなく、「Rails×〇〇」をテーマに、コアでマニアックな技術について熱く語って頂きます！最後に懇親会の時間も設けております。※懇親会では本物のシューマイ出します！！
-tags: [勉強会]
+tags: [勉強会, Ruby]
 img: 2019/1009/leadengineer.jpg
 ---
 毎週何かしらの勉強会に参加する、という目標を立ててます。
