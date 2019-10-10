@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <aside class="sidebar">
   <header>
     <div class="about">
@@ -13,22 +12,40 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
+    <img src="https://grass-graph.moshimo.works/images/shimajima-eiji.png">
   </header> <!-- End Header -->
-  <section>
-    <h3>メニュー</h3>
+  <nav class="contact">
+    <h3 class="contact-title">サイト内検索</h3>
+    <form id="cse-search-box" action="http://google.com/cse">
+      <input type="hidden" name="cx" value="partner-pub-4313452092557553:7524370029" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="text" name="q" size="20" placeholder="Github Pages以下のすべてを検索できます。">
+      <button type="submit" name="sa">検索(Search)</button>
+    </form>
+    <script src="http://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+    <h3 class="contact-title">サイト内翻訳</h3>
+    <div id="google_translate_element"></div>
+    <script>
+      function googleTranslateElementInit()
+      {
+        new google.translate.TranslateElement( { pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-63549092-4' }, 'google_translate_element' );
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    {% if page.path == 'index.html' %}
+    <h3 class="contact-title">メニュー</h3>
     <ul>
       <li><a href="/">トップページ</a></li>
-      <li><a href="/about">ごあんない</a></li>
-      <li>経歴
-        <ul>
-          <li><a href="/python">pythonの経歴</a></li>
-        </ul>
-      </li>
-      <li><a href="/sitemap.xml">サイトマップ(RSS)</a></li>
-      <li><a href="https://shimajima-eiji.github.io/">前身サイト:GitHub就職プロジェクト</a></li>
-      <li><a href="https://github.com/shimajima-eiji/resume/issues">今後の方針(Please Request)</a></li>
+      <li><a href="/readme">はじめに・サイトの見方</a></li>
+      <li><a href="/work">履歴・経歴など</a></li>
+      <li><a href="/recruit">お仕事の相談</a></li>
+      <li><a href="/tag">コンテンツ一覧</a></li>
     </ul>
-  </section>
+    {% else %}
+    <h3 class="contact-title">ページ内リンク</h3>
+    {% include toc.html html=content sanitize=true %}
+    {% endif %}
+  </nav>
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
