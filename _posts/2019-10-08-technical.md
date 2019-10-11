@@ -3,7 +3,7 @@ layout: post
 title: 技術情報
 date: 2019-10-08 00:00:00 +0900
 description: 詳細
-tags: [github pages 拡張機能]
+tags: [github pages 拡張機能, jekyll]
 ---
 GitHub Pagesを作成するにあたって、利用した技術情報などを**後で忘れても検索で気付くように**まとめておきます。
 
