@@ -1,0 +1,6 @@
+# アカウント名(site.social-github)を変えたら変更すること
+# github pagesについては、siteを使うことで対応可
+baseurl: https://github.com/shimajima-eiji
+url: https://github.com/shimajima-eiji/resume
+file: https://github.com/shimajima-eiji/resume/blob/master
+dir: https://github.com/shimajima-eiji/resume/tree/master
