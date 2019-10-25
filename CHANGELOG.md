@@ -4,14 +4,33 @@
 
 **Closed issues:**
 
+- 【検証】同一のファイル名（パーマネントリンク）が存在する場合の挙動 [\#34](https://github.com/shimajima-eiji/resume/issues/34)
+- 元画像のリサイズ [\#27](https://github.com/shimajima-eiji/resume/issues/27)
+- 縦長画像のサイズを見直す [\#21](https://github.com/shimajima-eiji/resume/issues/21)
 - トップページを押すとルートに戻ってしまう [\#17](https://github.com/shimajima-eiji/resume/issues/17)
 - bug: fixed以下のページのtagsがtags.htmlに反映されていない [\#16](https://github.com/shimajima-eiji/resume/issues/16)
 - pull忘れた分のおかしな履歴をrebase + force push [\#12](https://github.com/shimajima-eiji/resume/issues/12)
 - 失敗したコミットログを削除 [\#8](https://github.com/shimajima-eiji/resume/issues/8)
+- CHANGELOG.mdに過去分の履歴を遡らせたい [\#6](https://github.com/shimajima-eiji/resume/issues/6)
+- README.mdを整備 [\#4](https://github.com/shimajima-eiji/resume/issues/4)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- \[major\]\[fix\] pathにcategoryを追加、img以下のファイルサイズを最適化、これについて運用の見直し [\#39](https://github.com/shimajima-eiji/resume/pull/39) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Bugfix article [\#37](https://github.com/shimajima-eiji/resume/pull/37) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \[major\]\[fix\] pathにcategoryを追加、img以下のファイルサイズを最適化、これについて運用の見直し [\#36](https://github.com/shimajima-eiji/resume/pull/36) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Move posts [\#35](https://github.com/shimajima-eiji/resume/pull/35) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Fix article [\#33](https://github.com/shimajima-eiji/resume/pull/33) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- 相談ページのフォーマット崩れに対応 [\#32](https://github.com/shimajima-eiji/resume/pull/32) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Bugfix imgs [\#31](https://github.com/shimajima-eiji/resume/pull/31) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- buxfix\_revealjs [\#30](https://github.com/shimajima-eiji/resume/pull/30) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Add article, create revealjs [\#28](https://github.com/shimajima-eiji/resume/pull/28) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- 記事周りのバグフィックス [\#26](https://github.com/shimajima-eiji/resume/pull/26) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- 記事を追加 [\#25](https://github.com/shimajima-eiji/resume/pull/25) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \#4 \#21 add tags [\#23](https://github.com/shimajima-eiji/resume/pull/23) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- move image\(2019/10xx -\> 2019/10/\), 1010勉強会 [\#20](https://github.com/shimajima-eiji/resume/pull/20) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \#6 github\_changelog\_generator -t \[トークン\] で設定、追記できることを確認 [\#19](https://github.com/shimajima-eiji/resume/pull/19) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \#17, \[bugfix\] site.urlとsite.baseurlの指定、使っていないfixedディレクトリを削除 [\#18](https://github.com/shimajima-eiji/resume/pull/18) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[add\] アジェンダにもhタグ、Rails勉強会 [\#11](https://github.com/shimajima-eiji/resume/pull/11) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \#8 Force push [\#9](https://github.com/shimajima-eiji/resume/pull/9) ([shimajima-eiji](https://github.com/shimajima-eiji))
