@@ -17,6 +17,9 @@
 
 **Merged pull requests:**
 
+- \[rebase push\]\[add\] path.yml [\#43](https://github.com/shimajima-eiji/resume/pull/43) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \[fix\]\[article\] changed img path [\#42](https://github.com/shimajima-eiji/resume/pull/42) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- influence of force push, add CHANGELOG [\#40](https://github.com/shimajima-eiji/resume/pull/40) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[major\]\[fix\] pathにcategoryを追加、img以下のファイルサイズを最適化、これについて運用の見直し [\#39](https://github.com/shimajima-eiji/resume/pull/39) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Bugfix article [\#37](https://github.com/shimajima-eiji/resume/pull/37) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[major\]\[fix\] pathにcategoryを追加、img以下のファイルサイズを最適化、これについて運用の見直し [\#36](https://github.com/shimajima-eiji/resume/pull/36) ([shimajima-eiji](https://github.com/shimajima-eiji))
