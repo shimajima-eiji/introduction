@@ -2,9 +2,14 @@
 layout: post
 title: 【実験：2019/10/23】_post以下にディレクトリを作ったりページ名が重複した場合、URLはどうなるのか？
 description: これはjekyllのTips用記事ページです。
+categories:
+  - tech
+tags:
+  - jekyll
+img: 2019/10/research.jpg
 ---
 
-これはテストです。
+これはテストです。10/23 版（新ページ）の/jekyll-dupicate の内容です。
 まったく同じ内容では味気ないので、独立した 1 記事として設定します。
 
 jekyll の URL を設定しているのは、\_config.yml の**paginate_path**の設定です。
