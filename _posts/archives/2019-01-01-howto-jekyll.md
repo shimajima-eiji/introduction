@@ -16,7 +16,8 @@ GitHub Pages を作成するにあたって、利用した技術情報などを*
 
 ## チートシート
 
-Markdown ではなく、jekyll の機能に限定しています。
+ここでは Markdown ではなく、jekyll の機能に限定しています。
+[Markdown はこちらに移しました。]({{site.baseurl}}{% post_url archives/2019-01-01-howto-markdown %})
 ソース部分のカッコは半角です。
 [GitHub リポジトリ]({{site.data.github.url}})も参照してもらいつつ、見比べてもらったほうが良いかも知れません。
 
@@ -93,6 +94,14 @@ dir: https://github.com/shimajima-eiji/resume/tree/master
 やはり数式をきれいに書きたいですよね。
 
 [見積もりの人月神話]({{site.baseurl}}{% post_url 2019/10/2019-10-10-estimate %})で使っているので、こちらを参考にしてみてください。
+
+### TOC:目次
+
+markdown ではなく jekyll です。
+厳密には jekyll-doc という gem を使っています。
+[ソースコード]({{site.data.github.file}}_includes/toc.html)
+
+Gemfile に追記する必要はなく、githubpage に内包されています。
 
 ## 環境構築
 
