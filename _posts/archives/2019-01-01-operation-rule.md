@@ -6,7 +6,7 @@ categories:
   - archive
 tags:
   - スニペット
-img: template-1.png
+img: archive/template-1.png
 ---
 
 ## ごあんない

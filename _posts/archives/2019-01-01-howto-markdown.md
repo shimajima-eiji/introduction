@@ -10,7 +10,7 @@ tags:
   - markdown
   - kramdown
   - Tipsツール
-img: techinfo.jpg
+img: archive/techinfo.jpg
 ---
 
 GitHub Pages を作成するにあたって、利用した技術情報などを**後で忘れても検索で気付くように**まとめておきます。
