@@ -4,6 +4,9 @@
 
 **Closed issues:**
 
+- ビルド時のWarmメッセージを表示させない [\#50](https://github.com/shimajima-eiji/resume/issues/50)
+- 混在するarchivesとarchiveを統一する [\#48](https://github.com/shimajima-eiji/resume/issues/48)
+- 画像ファイルを移行する [\#47](https://github.com/shimajima-eiji/resume/issues/47)
 - 【検証】同一のファイル名（パーマネントリンク）が存在する場合の挙動 [\#34](https://github.com/shimajima-eiji/resume/issues/34)
 - 元画像のリサイズ [\#27](https://github.com/shimajima-eiji/resume/issues/27)
 - 縦長画像のサイズを見直す [\#21](https://github.com/shimajima-eiji/resume/issues/21)
@@ -14,10 +17,12 @@
 - タグを動的っぽく設定したい [\#7](https://github.com/shimajima-eiji/resume/issues/7)
 - CHANGELOG.mdに過去分の履歴を遡らせたい [\#6](https://github.com/shimajima-eiji/resume/issues/6)
 - README.mdを整備 [\#4](https://github.com/shimajima-eiji/resume/issues/4)
+- ampに対応する [\#3](https://github.com/shimajima-eiji/resume/issues/3)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- ビルド時のWarm除去、archiveのパスを統一 [\#49](https://github.com/shimajima-eiji/resume/pull/49) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - fix for blog, add blog [\#46](https://github.com/shimajima-eiji/resume/pull/46) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Squash [\#44](https://github.com/shimajima-eiji/resume/pull/44) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[rebase push\]\[add\] path.yml [\#43](https://github.com/shimajima-eiji/resume/pull/43) ([shimajima-eiji](https://github.com/shimajima-eiji))
