@@ -16,13 +16,8 @@ layout: default
   </header> <!-- End Header -->
   <nav class="contact">
     <h3 class="contact-title">サイト内検索</h3>
-    <form id="cse-search-box" action="http://google.com/cse">
-      <input type="hidden" name="cx" value="partner-pub-4313452092557553:7524370029" />
-      <input type="hidden" name="ie" value="UTF-8" />
-      <input type="text" name="q" size="20" placeholder="Github Pages以下のすべてを検索できます。">
-      <button type="submit" name="sa">検索(Search)</button>
-    </form>
-    <script src="http://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+    <script async src="https://cse.google.com/cse.js?cx=011467457237020257258:8dkx6golzfn"></script>
+    <div class="gcse-search"></div>
     <h3 class="contact-title">サイト内翻訳</h3>
     <div id="google_translate_element"></div>
     <script>
@@ -35,9 +30,9 @@ layout: default
     {% if page.path == 'index.html' %}
     <h3 class="contact-title">メニュー</h3>
     <ul>
-      <li><a href="{{site.baseurl}}/readme">はじめに・サイトの見方</a></li>
-      <li><a href="{{site.baseurl}}/work">履歴・経歴など</a></li>
-      <li><a href="{{site.baseurl}}/recruit">お仕事の相談</a></li>
+      <li><a href="{{site.baseurl}}{% post_url archive/2019-01-01-readme %}">はじめに・サイトの見方</a></li>
+      <li><a href="{{site.baseurl}}{% post_url archive/2019-01-01-work %}">履歴・経歴など</a></li>
+      <li><a href="{{site.baseurl}}{% post_url archive/2019-01-01-recruit %}">お仕事の相談</a></li>
       <li><a href="{{site.baseurl}}/tags">コンテンツ一覧</a></li>
     </ul>
     {% else %}

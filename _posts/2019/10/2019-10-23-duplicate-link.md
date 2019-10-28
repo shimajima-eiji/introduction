@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - jekyll
-img: 2019/10/research.jpg
+img: common/research.jpg
 ---
 
 これは同じディレクトリ内に同名のパーマネントリンクページが存在する時のリンク用テストページです。

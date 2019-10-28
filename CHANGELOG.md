@@ -11,12 +11,15 @@
 - bug: fixed以下のページのtagsがtags.htmlに反映されていない [\#16](https://github.com/shimajima-eiji/resume/issues/16)
 - pull忘れた分のおかしな履歴をrebase + force push [\#12](https://github.com/shimajima-eiji/resume/issues/12)
 - 失敗したコミットログを削除 [\#8](https://github.com/shimajima-eiji/resume/issues/8)
+- タグを動的っぽく設定したい [\#7](https://github.com/shimajima-eiji/resume/issues/7)
 - CHANGELOG.mdに過去分の履歴を遡らせたい [\#6](https://github.com/shimajima-eiji/resume/issues/6)
 - README.mdを整備 [\#4](https://github.com/shimajima-eiji/resume/issues/4)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- fix for blog, add blog [\#46](https://github.com/shimajima-eiji/resume/pull/46) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Squash [\#44](https://github.com/shimajima-eiji/resume/pull/44) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[rebase push\]\[add\] path.yml [\#43](https://github.com/shimajima-eiji/resume/pull/43) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[fix\]\[article\] changed img path [\#42](https://github.com/shimajima-eiji/resume/pull/42) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - influence of force push, add CHANGELOG [\#40](https://github.com/shimajima-eiji/resume/pull/40) ([shimajima-eiji](https://github.com/shimajima-eiji))
