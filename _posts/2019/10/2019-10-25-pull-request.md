@@ -7,7 +7,7 @@ categories:
 tags:
   - git
   - todo
-img: 2019/10/research.jpg
+img: common/research.jpg
 ---
 
 まずはこの絵を覚えておいてほしいです。

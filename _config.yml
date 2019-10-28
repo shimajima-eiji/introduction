@@ -28,7 +28,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - amp-jekyll
 
 paginate: 8
 paginate_path: "/page/:num"

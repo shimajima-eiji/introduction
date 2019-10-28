@@ -6,7 +6,7 @@ categories:
   - tech
 tags:
   - jekyll
-img: 2019/10/research.jpg
+img: common/research.jpg
 ---
 
 これはテストです。10/22 版（旧版）の/jekyll-dupicate の内容です。
