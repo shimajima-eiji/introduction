@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GitHubに投げたプルリクをMerge
-description: 普段CTOやリードエンジニアとして活躍されている3~4名の方に、Railsだけでなく、「Rails×〇〇」をテーマに、コアでマニアックな技術について熱く語って頂きます！最後に懇親会の時間も設けております。※懇親会では本物のシューマイ出します！！
+title: GitHubに投げたプルリクをマージする3パターンを考察
+description: GitHubのPull RequestをMergeする方法として、create merege, rebase and merge, squash and mergeの３つから挙動を確認します。
 categories:
   - tech
 tags:
@@ -23,6 +23,9 @@ img: common/research.jpg
 git rebase で運用したい場合、**push した後はローカルファイルを削除すること。**
 
 ## 操作手順
+
+長いですが、全手順です。
+同じような事を繰り返しているので、画像の状態と同じ様になっているか都度確認していきましょう。
 
 1. 適当な変更をして commit する
 1. push してプルリクする
