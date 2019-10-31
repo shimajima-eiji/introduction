@@ -44,7 +44,7 @@ jekyll の使い方は[チートシート]({{site.baseurl}}{% post_url archive/2
 
 ### Q. カテゴリーを設定するとパスが変わるのでは？
 
-[/\_config.yml]({{site.data.github.file}}/_config.yml#L4)で**:categories**と指定しているためです。
+[/\_config.yml]({{site.data.github.url}}/{{site.data.github.file}}/_config.yml#L4)で**:categories**と指定しているためです。
 これをやめると[一覧での表示とリンク先が異なる問題（検証）]({{site.baseurl}}{% post_url 2019/10/2019-10-23-duplicate-link %})のような問題が発生するため、
 
 - ファイル名を変更する
