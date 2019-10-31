@@ -63,7 +63,7 @@ GitHub Pages を作成するにあたって、利用した技術情報などを*
 ｛｛page.path｝｝
 ```
 
-たとえば、[{{ site.data.config.ghfile }}/{{page.path}}]({{ site.data.config.ghfile }}/{{page.path}})のように指定する方法が考えられます。
+たとえば、[{{site.data.github.url}}/{{site.data.github.file}}/{{page.path}}]({{site.data.github.url}}/{{site.data.github.file}}/{{page.path}})のように指定する方法が考えられます。
 が、用法として特殊なのでどうやって使うかは未知数です。コードなら大喜びですが…。
 
 ### 自由変数や\_config.yml の値を使いたい
@@ -71,19 +71,19 @@ GitHub Pages を作成するにあたって、利用した技術情報などを*
 表示例：{{site.data.github.file}}
 
 ```
-｛｛site.data.config.file｝｝
+｛｛site.data.github.file｝｝
 # _data/github.ymlのfileを取得
 ```
 
-ファイルは、[{{site.data.github.file}}\_data/github.yml]({{site.data.github.file}}/_data/github.yml)の通り。
+ファイルは、[{{site.data.github.url}}/{{site.data.github.file}}\_data/github.yml]({{site.data.github.url}}/{{site.data.github.file}}\_data/github.yml)の通り。
 
 ```
 # アカウント名(site.social-github)を変えたら変更すること
 # github pagesについては、siteを使うことで対応可
 baseurl: https://github.com/shimajima-eiji
 url: https://github.com/shimajima-eiji/resume
-file: https://github.com/shimajima-eiji/resume/blob/master
-dir: https://github.com/shimajima-eiji/resume/tree/master
+file: blob/master
+dir: tree/master
 ```
 
 執筆時点のものなので変更されている可能性があります。

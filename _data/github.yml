@@ -2,5 +2,5 @@
 # github pagesについては、siteを使うことで対応可
 baseurl: https://github.com/shimajima-eiji
 url: https://github.com/shimajima-eiji/resume
-file: https://github.com/shimajima-eiji/resume/blob/master
-dir: https://github.com/shimajima-eiji/resume/tree/master
+file: blob/master
+dir: tree/master
