@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Google App Scriptを使って無料で簡単にサーバーレスアーキテクトを実現するハンズオン！
-description:
+title: 愛用しているエディタ「VSCode」で使えるステキな拡張機能のご紹介
+description: エンジニアなら切り離せないエディタ戦争！ Vimやnano、EmacsなどCUIベースから秀丸とかAtom、notepad++他のGUIベース高機能エディタやVisual StudioやEclipse、PHP StormなどIDEのぶっちゃけ話
 categories:
-  - blog
+  - tech
 tags:
-  - テレビ
-  - ネタバレ
-  - ビジネス
-img: 2019/10/vscode.jpg
+  - エディタ
+img: common/research.jpg
 ---
+
+ゴリゴリ系の現場で必ず話題になる「あなたはどんなエディタを使っていますか？」のお話。
+
 
 [Visual Studio Code 最小構成の拡張機能をJavaScriptで作成](https://ao-system.net/note/65)
