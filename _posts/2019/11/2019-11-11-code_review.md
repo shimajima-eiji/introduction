@@ -7,7 +7,7 @@ categories:
 tags:
   - コードレビュー
   - Tipsツール
-img: archive/research.jpg
+img: common/research.jpg
 ---
 ## 対象読者
 - とりあえずProgateはやったレベルの人
