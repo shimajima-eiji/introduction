@@ -4,9 +4,14 @@
 
 **Closed issues:**
 
+- 公開用（ホスティング用）のリポジトリと開発用のリポジトリを分けるか [\#67](https://github.com/shimajima-eiji/resume/issues/67)
+- パンくずリストとカテゴリページを追加する [\#65](https://github.com/shimajima-eiji/resume/issues/65)
+- 毎日つけるためにブランチ名を日付でつける [\#52](https://github.com/shimajima-eiji/resume/issues/52)
 - ビルド時のWarmメッセージを表示させない [\#50](https://github.com/shimajima-eiji/resume/issues/50)
 - 混在するarchivesとarchiveを統一する [\#48](https://github.com/shimajima-eiji/resume/issues/48)
 - 画像ファイルを移行する [\#47](https://github.com/shimajima-eiji/resume/issues/47)
+- 一部ページに画像が表示されない [\#41](https://github.com/shimajima-eiji/resume/issues/41)
+- githubやpages内リンクを所定の記法に対応させる [\#38](https://github.com/shimajima-eiji/resume/issues/38)
 - 【検証】同一のファイル名（パーマネントリンク）が存在する場合の挙動 [\#34](https://github.com/shimajima-eiji/resume/issues/34)
 - 元画像のリサイズ [\#27](https://github.com/shimajima-eiji/resume/issues/27)
 - 縦長画像のサイズを見直す [\#21](https://github.com/shimajima-eiji/resume/issues/21)
@@ -22,6 +27,14 @@
 
 **Merged pull requests:**
 
+- 色々と積み重なったアレコレを一挙結合 [\#69](https://github.com/shimajima-eiji/resume/pull/69) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Add articles [\#60](https://github.com/shimajima-eiji/resume/pull/60) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Add article [\#59](https://github.com/shimajima-eiji/resume/pull/59) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- add articles [\#58](https://github.com/shimajima-eiji/resume/pull/58) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \[fix\] link path to article [\#56](https://github.com/shimajima-eiji/resume/pull/56) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- add articles [\#55](https://github.com/shimajima-eiji/resume/pull/55) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Add articles [\#54](https://github.com/shimajima-eiji/resume/pull/54) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- 2019 10 28 [\#53](https://github.com/shimajima-eiji/resume/pull/53) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - ビルド時のWarm除去、archiveのパスを統一 [\#49](https://github.com/shimajima-eiji/resume/pull/49) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - fix for blog, add blog [\#46](https://github.com/shimajima-eiji/resume/pull/46) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Squash [\#44](https://github.com/shimajima-eiji/resume/pull/44) ([shimajima-eiji](https://github.com/shimajima-eiji))
