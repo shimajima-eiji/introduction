@@ -6,7 +6,8 @@ layout: main
     {% if page.img %}
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}}
+          alt="{{page.title}}">
         {% if page.fig-caption %}
         <figcaption>{{page.fig-caption}}</figcaption>
         {% endif %}
@@ -15,6 +16,9 @@ layout: main
     <!-- End Page Cover Image -->
     {% else %} {% endif %}
     <div class="wrap-content">
+      <nav>
+        {% include breadcrumbs.html html=content sanitize=true %}
+      </nav>
       <header class="header-page">
         <h1 id="page-title" class="page-title">{{page.title}}</h1>
         <div class="page-date">

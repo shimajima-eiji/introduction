@@ -12,7 +12,15 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
-    <img src="https://grass-graph.moshimo.works/images/shimajima-eiji.png">
+    <a href="http://github.com/{{site.social-github}}">
+      <picture>
+        <source srcset="https://grass-graph.moshimo.works/images/shimajima-eiji.png?rotate=270"
+          media="(max-width: 480px)">
+        <source srcset="https://grass-graph.moshimo.works/images/shimajima-eiji.png?rotate=270"
+          media="(min-width: 768px)">
+        <img src="https://grass-graph.moshimo.works/images/shimajima-eiji.png">
+      </picture>
+    </a>
   </header> <!-- End Header -->
   <nav class="contact">
     <h3 class="contact-title">サイト内検索</h3>
@@ -34,6 +42,7 @@ layout: default
       <li><a href="{{site.baseurl}}{% post_url archive/2019-01-01-work %}">履歴・経歴など</a></li>
       <li><a href="{{site.baseurl}}{% post_url archive/2019-01-01-recruit %}">お仕事の相談</a></li>
       <li><a href="{{site.baseurl}}/tags">コンテンツ一覧</a></li>
+      <li><a href="{{site.baseurl}}/feed.xml">RSSフィード</a></li>
     </ul>
     {% else %}
     <h3 class="contact-title">ページ内リンク</h3>
