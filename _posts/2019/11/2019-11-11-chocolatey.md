@@ -17,6 +17,10 @@ img: 2019/11/chocolatey.jpg
 
 移行ツールなど色々ありますが、できたらエンジニアライクにやりたい！ということでchocolateyを使ってみます。
 
+## chocolateyで管理しよう
+[Qiitaの記事](https://qiita.com/nomurasan/items/a85555f4c6964c69cb9c)の追記版です。
+どうやって運用しているか？という話もありますが、ほとんど私の話なのでこちらで私物化しとります。
+
 ## chocolateyとは
 Windowsのパッケージ管理・エコシステムで、MacOSでいうbrewやymlなどaptのようなものです。
 chromeやらfirefoxやら、インストールしているものをコマンド一発でいい感じにやってくれるツール、ぐらいの認識で良いと思います。
@@ -54,6 +58,20 @@ cinst chocolatey.config
 インストーラー側からメッセージがちょいちょい上がってくるので、yとかaとかで進めましょう。
 面倒くさかったら聞かれてもないのにy[enter]y[enter]を何回か入力しておいてもいいかもしれません。[^1]
 
+## そのうち、インストーラーがないもの
+つまり、インストールしたのはいいものの、レジストリに登録されないので実行ファイルがどこにあるか分からないものです。
+`C:\ProgramData\chocolatey\lib`以下にファイルが配置されます。
+設定はtools以下に置かれています。
+
+ためしに、ファイラ「[Tablacus Explorer](https://tablacus.github.io/explorer.html)」をインストールして確認してみましょう。
+
+### 罠か？インストールされても使えない機能がある
+マルチプロセスなど、管理者権限が必要なものは使えないと思われます。
+たとえば、tablacusを管理者権限で実行して実施したところ、正常に動いていないことが確認できました。
+他にMicrosoft Store製品やGoogleDriveなんかも若干挙動が怪しいです。
+
+探せばほかの機能やアプリでも同様の症例がありそうな気がするので、本格的に運用したい場合は別管理したほうがよさそうです。
+
 ## Windowsの設定
 適宜対応のものなのでやってもやらなくても良いです。
 私はHyper-VとWindows Subsystem for LInuxは必需品なので、この二つを入れてます。
@@ -69,6 +87,15 @@ tortoise gitを使っているなら、languageパッケージをわざわざダ
 とはいえ面倒くさいので、chocolateyで管理してくれないかなぁ。
 
 いっそのこと、これらのファイルだけ別管理するという手もなくはないです。
+
+## chocolateyで管理できないもの
+執筆時点で導入できないものは以下の通り。
+- [toutoise git language pack for japanese](https://tortoisegit.org/download/)
+- [ぴすたちおーウィンドウをピッタリ合わせる](http://ara.moo.jp/pita/)
+- [pauseボタンで最前列](http://ftp.vector.co.jp/71/91/2318/pause_200.zip)
+
+細かい事を言うと、7zipの圧縮解凍ソフトや仮想ディスクなんかも、これを機会に乗り換えました。
+chocolateyに依存すると、こういった弊害が生まれそうです。
 
 ## 入った後に設定するもの
 私の場合、tablacusとVSCodeのSettings.jsonをgitで管理しているので、これらを持ってくる必要があります。
