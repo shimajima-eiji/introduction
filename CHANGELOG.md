@@ -27,6 +27,10 @@
 
 **Merged pull requests:**
 
+- Update shuumai [\#75](https://github.com/shimajima-eiji/resume/pull/75) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Fix article [\#72](https://github.com/shimajima-eiji/resume/pull/72) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Add workshop [\#71](https://github.com/shimajima-eiji/resume/pull/71) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Update changelog [\#70](https://github.com/shimajima-eiji/resume/pull/70) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - 色々と積み重なったアレコレを一挙結合 [\#69](https://github.com/shimajima-eiji/resume/pull/69) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Add articles [\#60](https://github.com/shimajima-eiji/resume/pull/60) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Add article [\#59](https://github.com/shimajima-eiji/resume/pull/59) ([shimajima-eiji](https://github.com/shimajima-eiji))

@@ -3,18 +3,22 @@ layout: main
 ---
 <article class="article-page">
   <div class="page-content">
-    {% if page.img %}
     <div class="page-cover-image">
       <figure>
+        {% if page.img %}
         <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}}
           alt="{{page.title}}">
+        {% else %}
+        <img class="page-image"
+          src="https://chart.apis.google.com/chart?cht=qr&chs=130x130&chl={{site.url}}{{site.baseurl}}{{page.url}}"
+          alt="{{page.title}}">
+        {% endif %}
         {% if page.fig-caption %}
         <figcaption>{{page.fig-caption}}</figcaption>
         {% endif %}
       </figure>
     </div>
     <!-- End Page Cover Image -->
-    {% else %} {% endif %}
     <div class="wrap-content">
       <nav>
         {% include breadcrumbs.html html=content sanitize=true %}

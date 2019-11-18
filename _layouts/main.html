@@ -35,6 +35,13 @@ layout: default
       }
     </script>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <h3 class="contact-title">QRコード</h3>
+    <p>
+      <a href="{{site.url}}{{site.baseurl}}{{page.url}}">
+        <img src="https://chart.apis.google.com/chart?cht=qr&chs=130x130&chl={{site.url}}{{site.baseurl}}{{page.url}}"
+          width="100%">
+      </a>
+    </p>
     {% if page.path == 'index.html' %}
     <h3 class="contact-title">メニュー</h3>
     <ul>
@@ -91,6 +98,7 @@ layout: default
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
+    {% include foot.html html=content sanitize=true %}
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
