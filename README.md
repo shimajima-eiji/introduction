@@ -49,7 +49,7 @@ Qiitaの記事読んで楽しめるレベルの人なら問題ないです。
 もちろん、使えるに越したことはありませんが……。
 
 ## Advice
-手前味噌の記事で恐縮ですが、[GitHubリポジトリからの脱出](https://shimajima-eiji.github.io/resume/misoca/#プログラマ向けゲームを作る技術)はgitコマンドのスキルアップにちょうど良いですよ。
+手前味噌の記事で恐縮ですが、[GitHubリポジトリからの脱出](https://shimajima-eiji.github.io/resume/lecture/misoca#プログラマ向けゲームを作る技術)はgitコマンドのスキルアップにちょうど良いですよ。
 ゲーム感覚で楽しみながらコマンドを試すことができます。
 普段日常から使うか？というと疑問ですが、gitコマンドに対する苦手意識の払拭には良いハズ！
 
@@ -69,8 +69,11 @@ jekyll自体のお話については[本ブログ](https://shimajima-eiji.github
 ページは3パターンあります。
 
 - [トップページ](https://shimajima-eiji.github.io/resume/)
-- [記事ページ](https://shimajima-eiji.github.io/resume/2019-10-08-technical.md)
+  - [ファイル](https://github.com/shimajima-eiji/resume/blob/master/index.html)
+- [記事ページ](https://shimajima-eiji.github.io/resume/blog/gooday)
+  - [ファイル](https://github.com/shimajima-eiji/resume/blob/master/_posts/2019/11/2019-11-01-gooday.md)
 - [固定ページ](https://shimajima-eiji.github.io/resume/readme)
+  - [ファイル](https://github.com/shimajima-eiji/resume/blob/master/_posts/archive/2019-01-01-readme.md)
 
 記事ページと固定ページは見た目を変えているだけで、構造的にはpost.htmlを使っていますので骨子は同じです。
 トップページだけindex.htmlを使っており、構造が異なります。
