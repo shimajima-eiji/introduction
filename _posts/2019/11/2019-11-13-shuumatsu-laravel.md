@@ -3,7 +3,7 @@ layout: post
 title: 【シューマイ】Tech Lead Engineerから最新技術を学べ！Laravel編
 description: 初心者がはじめて副業をするならおすすめのシューマツワーカーさんの勉強会「Laravel」会に参加してきました！誰よりも早く（公式公認）でお届けします。
 categories:
-  - tech
+  - lecture
 tags:
   - 勉強会
   - PHP

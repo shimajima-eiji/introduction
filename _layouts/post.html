@@ -10,7 +10,7 @@ layout: main
           alt="{{page.title}}">
         {% else %}
         <img class="page-image"
-          src="https://chart.apis.google.com/chart?cht=qr&chs=130x130&chl={{site.url}}{{site.baseurl}}{{page.url}}"
+          src="{{site.data.layout.qrcode}}chart?cht=qr&chs=130x130&chl={{site.url}}{{site.baseurl}}{{page.url}}"
           alt="{{page.title}}">
         {% endif %}
         {% if page.fig-caption %}
@@ -53,4 +53,6 @@ layout: main
   <!-- End Page Content -->
 </article>
 <!-- End Article Page -->
+{% include pagination.html %}
+
 {% include main_script.html %}

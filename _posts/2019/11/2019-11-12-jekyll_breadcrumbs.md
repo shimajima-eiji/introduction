@@ -7,7 +7,7 @@ categories:
 tags:
   - ruby
   - jekyll
-img: common/research.jpg
+img: 2019/11/breadcrumb.jpg
 ---
 
 ruby パンくずリストみたいな検索ワードで検索するとRuby **on Rails**のgretelというgemパッケージがヒットするばかりで、**GitHub Pagesで使えるjekyllのBreadCrumbsは見つからない**ので、諦めて自分で作って公開する事にします。
