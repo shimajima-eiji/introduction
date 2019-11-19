@@ -43,6 +43,14 @@ img: common/freetalk.jpg
 先程もちらりと上げましたが、９話は学びになります。
 １１話は即売会あるあるながら、なかなかの胸キュン[^5]
 
+## OPがすごく元気になる！
+今日一番いいたいこと。
+「輪！Moon！Dass！Cry！」は元気がでる良い曲です。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WvMcbMh3kI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Youtube: KADOKAWA公式チャンネル
+
+
 ## 注釈
 [^1]: 【キモオタをやる】とは……？ただのアニメやらゲームやらのお話です。
 [^2]: 【バカの声】赤﨑千夏。低い時はヲタと聞き分けるのは難しいが、高音に特徴がある（ように私には聞こえる）
