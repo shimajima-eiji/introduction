@@ -8,6 +8,7 @@ tags:
   - Tips
 img: 2019/11/snippingtool.png
 ---
+{{site.data.post.blog}}
 
 print screen keyより「切り取り＆スケッチ」が便利で使いやすかったです。
 
