@@ -4,7 +4,9 @@
 
 **Closed issues:**
 
-- 公開用（ホスティング用）のリポジトリと開発用のリポジトリを分けるか [\#67](https://github.com/shimajima-eiji/resume/issues/67)
+- \[task\] 書き出しの定型句を策定する [\#94](https://github.com/shimajima-eiji/resume/issues/94)
+- \[future\] githubページを各ページに対応したQRコードを配置したい [\#80](https://github.com/shimajima-eiji/resume/issues/80)
+- \[knowledge\] 公開用（ホスティング用）のリポジトリと開発用のリポジトリを分けるか [\#67](https://github.com/shimajima-eiji/resume/issues/67)
 - パンくずリストとカテゴリページを追加する [\#65](https://github.com/shimajima-eiji/resume/issues/65)
 - 毎日つけるためにブランチ名を日付でつける [\#52](https://github.com/shimajima-eiji/resume/issues/52)
 - ビルド時のWarmメッセージを表示させない [\#50](https://github.com/shimajima-eiji/resume/issues/50)
@@ -22,11 +24,14 @@
 - タグを動的っぽく設定したい [\#7](https://github.com/shimajima-eiji/resume/issues/7)
 - CHANGELOG.mdに過去分の履歴を遡らせたい [\#6](https://github.com/shimajima-eiji/resume/issues/6)
 - README.mdを整備 [\#4](https://github.com/shimajima-eiji/resume/issues/4)
-- ampに対応する [\#3](https://github.com/shimajima-eiji/resume/issues/3)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- \#94 全部の記事に適用するのは危険か。パターンを考えたい [\#98](https://github.com/shimajima-eiji/resume/pull/98) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- 「Unityで作る！ドコモAIエージェントAPIを使った音声対話アプリ作成ハンズオン」レビュー [\#93](https://github.com/shimajima-eiji/resume/pull/93) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Wip 20191118 [\#84](https://github.com/shimajima-eiji/resume/pull/84) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \#80 Add qrcode [\#81](https://github.com/shimajima-eiji/resume/pull/81) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Update shuumai [\#75](https://github.com/shimajima-eiji/resume/pull/75) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Fix article [\#72](https://github.com/shimajima-eiji/resume/pull/72) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Add workshop [\#71](https://github.com/shimajima-eiji/resume/pull/71) ([shimajima-eiji](https://github.com/shimajima-eiji))
