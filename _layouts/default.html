@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
-{% include head.html %}
-<body>
+  {% include head.html %}
 
-  <div class="wrapper">
-    {{ content }}
-  </div>
-  
-  {% include analytics.html %}
-</body>
+  <body>
+    <div class="wrapper">
+      {{ content }}
+    </div>
+    {% include foot.html html=content sanitize=true %}
+  </body>
+
 </html>
