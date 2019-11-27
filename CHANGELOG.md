@@ -40,6 +40,8 @@
 
 **Merged pull requests:**
 
+- \[bugfix\] remove pwa for GitHub Pages [\#116](https://github.com/shimajima-eiji/resume/pull/116) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- オフラインレクチャー用の記事を非表示 [\#115](https://github.com/shimajima-eiji/resume/pull/115) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Add articles [\#114](https://github.com/shimajima-eiji/resume/pull/114) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[WIP\] Netlifyで参照した際にbaseurlがないため、rootを参照させるとgithub pagesでパスが異なる [\#113](https://github.com/shimajima-eiji/resume/pull/113) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Wip pwa [\#111](https://github.com/shimajima-eiji/resume/pull/111) ([shimajima-eiji](https://github.com/shimajima-eiji))
