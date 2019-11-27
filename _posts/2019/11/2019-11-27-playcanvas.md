@@ -53,16 +53,6 @@ PC・スマートフォン
 ```
 いつものように、[公式ページ](https://playcanvasjp.connpass.com/event/153324/)さんから
 
-### 協賛
-- [日本PlayCanvasユーザ会のはがさんのページ(note)](https://note.com/tmp_haga/n/ncb260cce90f4)
-- [PlayCanvas Advent Calendar 2019](https://qiita.com/advent-calendar/2019/playcanvas)：
-
-アドベントカレンダーに参加します。
-若干記事を調整しますが、こちらには先行公開ということでひとつ。
-
-PlayCanvasで3DなWebページが簡単につくれる時代がくればいいな、と期待しています。
-Vtuber的な活動と連携できればワタシ的には激アツ！
-
 ## PlayCanvasとは
 ![スライド]({{site.baseurl}}/{{site.data.path.img}}/2019/11/playcanvas_slide.jpg)
 
