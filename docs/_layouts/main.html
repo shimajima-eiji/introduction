@@ -84,6 +84,7 @@ layout: default
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
+    {% include foot.html html=content sanitize=true %}
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
