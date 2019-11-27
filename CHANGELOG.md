@@ -4,8 +4,15 @@
 
 **Closed issues:**
 
+- \[future\] PWA [\#102](https://github.com/shimajima-eiji/resume/issues/102)
+- \[future\] ページの表示が遅い [\#101](https://github.com/shimajima-eiji/resume/issues/101)
 - \[task\] 書き出しの定型句を策定する [\#94](https://github.com/shimajima-eiji/resume/issues/94)
+- \[task\] Wikiを整備 [\#92](https://github.com/shimajima-eiji/resume/issues/92)
+- \[future\] 似たようなサービスを集約したい [\#90](https://github.com/shimajima-eiji/resume/issues/90)
+- \[task\] sitemap.xmlやrss.xmlの挙動を確認する [\#85](https://github.com/shimajima-eiji/resume/issues/85)
 - \[future\] githubページを各ページに対応したQRコードを配置したい [\#80](https://github.com/shimajima-eiji/resume/issues/80)
+- \[future\] changelogで管理できるようにしたい [\#77](https://github.com/shimajima-eiji/resume/issues/77)
+- \[knowledge\] 複数のPCで同じ記事を書いているときの競合 [\#74](https://github.com/shimajima-eiji/resume/issues/74)
 - \[knowledge\] 公開用（ホスティング用）のリポジトリと開発用のリポジトリを分けるか [\#67](https://github.com/shimajima-eiji/resume/issues/67)
 - パンくずリストとカテゴリページを追加する [\#65](https://github.com/shimajima-eiji/resume/issues/65)
 - 毎日つけるためにブランチ名を日付でつける [\#52](https://github.com/shimajima-eiji/resume/issues/52)
@@ -24,10 +31,17 @@
 - タグを動的っぽく設定したい [\#7](https://github.com/shimajima-eiji/resume/issues/7)
 - CHANGELOG.mdに過去分の履歴を遡らせたい [\#6](https://github.com/shimajima-eiji/resume/issues/6)
 - README.mdを整備 [\#4](https://github.com/shimajima-eiji/resume/issues/4)
+- \[future\] ampに対応する [\#3](https://github.com/shimajima-eiji/resume/issues/3)
 - i18nに対応する（管理が煩雑にならないように考慮する） [\#2](https://github.com/shimajima-eiji/resume/issues/2)
 
 **Merged pull requests:**
 
+- \[WIP\] Netlifyで参照した際にbaseurlがないため、rootを参照させるとgithub pagesでパスが異なる [\#113](https://github.com/shimajima-eiji/resume/pull/113) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- Wip pwa [\#111](https://github.com/shimajima-eiji/resume/pull/111) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \[add\] ライブコーディング用：ページ作成 [\#110](https://github.com/shimajima-eiji/resume/pull/110) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- \[add\] noodl-Node-REDハンズオン [\#105](https://github.com/shimajima-eiji/resume/pull/105) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- add articles [\#104](https://github.com/shimajima-eiji/resume/pull/104) ([shimajima-eiji](https://github.com/shimajima-eiji))
+- changelog 2019-11-20 [\#99](https://github.com/shimajima-eiji/resume/pull/99) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \#94 全部の記事に適用するのは危険か。パターンを考えたい [\#98](https://github.com/shimajima-eiji/resume/pull/98) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - 「Unityで作る！ドコモAIエージェントAPIを使った音声対話アプリ作成ハンズオン」レビュー [\#93](https://github.com/shimajima-eiji/resume/pull/93) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Wip 20191118 [\#84](https://github.com/shimajima-eiji/resume/pull/84) ([shimajima-eiji](https://github.com/shimajima-eiji))
