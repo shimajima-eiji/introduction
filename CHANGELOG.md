@@ -4,13 +4,17 @@
 
 **Closed issues:**
 
+- \[todo\] スケルトンブランチを作成する [\#109](https://github.com/shimajima-eiji/resume/issues/109)
+- \[task\] futureにマイルストンを設定する [\#103](https://github.com/shimajima-eiji/resume/issues/103)
 - \[future\] PWA [\#102](https://github.com/shimajima-eiji/resume/issues/102)
 - \[future\] ページの表示が遅い [\#101](https://github.com/shimajima-eiji/resume/issues/101)
 - \[task\] 書き出しの定型句を策定する [\#94](https://github.com/shimajima-eiji/resume/issues/94)
 - \[task\] Wikiを整備 [\#92](https://github.com/shimajima-eiji/resume/issues/92)
+- \[todo\] リポジトリ名をresume -\> portfolioに変更 [\#91](https://github.com/shimajima-eiji/resume/issues/91)
 - \[future\] 似たようなサービスを集約したい [\#90](https://github.com/shimajima-eiji/resume/issues/90)
 - \[task\] sitemap.xmlやrss.xmlの挙動を確認する [\#85](https://github.com/shimajima-eiji/resume/issues/85)
 - \[future\] githubページを各ページに対応したQRコードを配置したい [\#80](https://github.com/shimajima-eiji/resume/issues/80)
+- \[future\] 長い記事を書いて、記事自体をページ区切りにしたい [\#79](https://github.com/shimajima-eiji/resume/issues/79)
 - \[future\] changelogで管理できるようにしたい [\#77](https://github.com/shimajima-eiji/resume/issues/77)
 - \[knowledge\] 複数のPCで同じ記事を書いているときの競合 [\#74](https://github.com/shimajima-eiji/resume/issues/74)
 - \[knowledge\] 公開用（ホスティング用）のリポジトリと開発用のリポジトリを分けるか [\#67](https://github.com/shimajima-eiji/resume/issues/67)
@@ -36,6 +40,7 @@
 
 **Merged pull requests:**
 
+- Add articles [\#114](https://github.com/shimajima-eiji/resume/pull/114) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[WIP\] Netlifyで参照した際にbaseurlがないため、rootを参照させるとgithub pagesでパスが異なる [\#113](https://github.com/shimajima-eiji/resume/pull/113) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - Wip pwa [\#111](https://github.com/shimajima-eiji/resume/pull/111) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[add\] ライブコーディング用：ページ作成 [\#110](https://github.com/shimajima-eiji/resume/pull/110) ([shimajima-eiji](https://github.com/shimajima-eiji))
