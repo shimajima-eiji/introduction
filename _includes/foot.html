@@ -1,11 +1,1 @@
 <script src="assets/js/analytics.js" async></script>
-<script>
-    if ( 'serviceWorker' in navigator )
-    {
-        navigator.serviceWorker.register( 'assets/js/serviceWorker.js' )
-            .then( ( reg ) =>
-            {
-                console.log( 'Service worker registered.', reg );
-            } );
-    }
-</script>
