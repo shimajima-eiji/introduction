@@ -1,0 +1,42 @@
+title: Goroh Nomura-ya's portfolio
+description: > # this means to ignore newlines until "baseurl:"
+  GitHub Pageで作るPythonフリーランスエンジニアのRuby奮闘記。for Japanese
+permalink: ':categories/:title'
+baseurl: "/resume" # the subpath of your site, e.g. /blog
+url: "https://shimajima-eiji.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Goroh Nomura-ya # add your name
+author-img: me.jpg # add your photo
+about-author: PythonとGASをこよなく愛するAPIデベロッパ。専門はPythonとAIデータエンジニアリング、Rails製Webアプリ（フロント）、業務系PMOや講師業など # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: shimajima-eiji # add your Github handle
+social-linkedin: nomurasan # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: nomuraya # add your discus identifier
+
+# Tracker
+analytics:  # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+# ADD
+kramdown:
+  parse_block_html: true
+
+google_analytics:
+  tracking_id: 'UA-63549092-4'

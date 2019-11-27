@@ -1,0 +1,15 @@
+img: assets/img
+js: assets/js
+font: assets/fonts
+
+# url(category): 使えない、同様にtagも設定できない
+# archive: archive
+# blog: blog
+# tech: tech
+
+# file
+archive: archive
+common: common
+
+# js
+smallchat: https://embed.small.chat/TCQBTUWTXGD0U00YLT.js
