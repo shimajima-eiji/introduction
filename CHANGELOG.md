@@ -42,6 +42,7 @@
 
 **Merged pull requests:**
 
+- \[WIP\] グーグルフォームスクリプト部分がまだ怪しい [\#124](https://github.com/shimajima-eiji/resume/pull/124) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[bugfix\] move profile from draft [\#122](https://github.com/shimajima-eiji/resume/pull/122) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[bugfix\] mergeで失われたものを追加 [\#121](https://github.com/shimajima-eiji/resume/pull/121) ([shimajima-eiji](https://github.com/shimajima-eiji))
 - \[bugfix\] rootをdocsで見かけ上hard reset [\#120](https://github.com/shimajima-eiji/resume/pull/120) ([shimajima-eiji](https://github.com/shimajima-eiji))
