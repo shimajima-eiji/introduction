@@ -217,4 +217,3 @@ Kotlinへの「漠然とした不安」をどう払拭するかが普及のカ�
 
 ## 次回「【シューマイ】Tech Lead Engineerから最新技術を学べ！Rubyまつもとゆきひろ氏に聞く★エンジニアキャリア編」comming soon...
 [カミングスーンとありますが、一覧では公開されています。](https://shuuu-mai.connpass.com/event/155130/)
-
