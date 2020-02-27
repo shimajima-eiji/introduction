@@ -1,6 +1,8 @@
 # News
 Gatsby + NetlifyCMSに移行しています。
 jekyll + NetlifyCMSでも良さそうですが、今まで使えていたGitHub Pagesが使えなくなるので、思い切って刷新中……
+現行だとコンテンツと表示を完全に分離できていない（動作上の問題はなし、管理の仕方の問題）ので、いったん切り分けるために試行錯誤のアプローチを変える。
+そのため、今後の内容は[View(Jamstack)](https://github.com/shimajima-eiji/Jamstack)と[Contents(profile)](https://github.com/shimajima-eiji/profile)に分ける。
 
 外部連携をするとGitHub Pages側でエラーになるので、同期は別リポジトリで実施するかもしれない。
 本格的に移行する場合は告知します。
